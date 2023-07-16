@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Write your comments here -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Githin Johny | Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles-index.css">
+</head>
+
+<body>
+    <nav id="home">
+        <h1>G.J.<h1>
+        <ul>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Fun">Have Some Fun</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <button class="menu" id="menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <div class="hero" id="hero">
+
+        <div class="bio">
+            <div class="d-name">
+                <div class="letter">G</div>
+                <div class="letter">I</div>
+                <div class="letter">T</div>
+                <div class="letter">H</div>
+                <div class="letter">I</div>
+                <div class="letter">N</div>
+                <div class="letter">_</div>
+                <div class="letter">J</div>
+                <div class="letter">O</div>
+                <div class="letter">H</div>
+                <div class="letter">N</div>
+                <div class="letter">Y</div>
+            </div>
+            
+            <p>
+            Student of engineering, learning, and life
+            </p>
+
+            <div class="moving">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+        </div>
+        <img
+            src="img/banner.webp"
+            alt="Blue background"
+            loading="lazy"
+            class="bg-img"
+        />
+        
+    </div>
+
+
+    <div class="about" id="About">
+        <div class="about_tit">
+            <h2>
+                About Me
+            </h2>
+        </div>
+        
+        <div class="about_desc">
+            <p> Hello! My name is Githin Johny and welcome to my portfolio! 
+                I am currently a student at Texas A&M University in 
+                College Station studying Computer Engineering. Here I 
+                have showcased some of the stuff I have worked on. 
+                Enjoy!
+            </p>
+        </div>
+        
+    </div>
+
+    <div class="projects" id="Projects">
+        <h1>Projects</h1>
+        <p>Take a look at some projects that I have worked on and/or in progress</p>
+
+        <div class="card_container">
+
+            <div class="card item1">
+                <div class="card2">
+                    <p class="main">MISSION #1</p>
+                    <p class="hide">Boom! This very <a href="#home">website</a>.</p>
+                </div>
+            </div>
+            <div class="card item2">
+                <div class="card2">
+                    <p class="main">MISSION #2</p>
+                    <p class="hide"> Just scroll down a little more :]</p>
+                </div>
+            </div>
+            <div class="card item3">
+                <div class="card2">
+                    <p class="main">MISSION #3</p>
+                    <p class="hide">Wow, you caught me at a bad time, coming soon.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="fun" id="Fun">
+        <h1>Have some Fun!</h1>
+        <p>Heard about ChatGPT? Talk to the OpenAI language model right here!</p>
+        <h6>I created a little home for our AI friend right in my website, so talk to it!</h6>
+        <div class="gpt-window">
+            <div id="resultContainer" class="resultContainer">
+                <p> Generated Text </p>
+                <p id="resultText" class="resultText"></p>
+            </div>
+
+            <div class="user-input">
+                <div class="generate_button">
+                    <input type="text" id="promptInput" placeholder="Enter prompt...click generate or enter when ready" />
+                    <div class="btn-container">
+                        <button id="generateBtn"> Generate </button>
+                        <button id="stopBtn" disabled> Stop </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="contact_backround" id="Contact">
+        <div class="contact">
+            <form class="form" onsubmit="sendEmail(); reset(); return false">
+                <h2>Contact Me!</h2>
+                <p> Have something to say? <br>
+                    (or not)...tell me? </p>
+                <div class="form-container">
+                    <input type="text" class="input" placeholder="Full Name" id="name" required>
+                    <input type="email" class="input" placeholder="Email" id="email" required>
+                    <textarea type="text" class="input" placeholder="What would you like to say?" id="message" required></textarea>
+                </div>
+                <button class="send" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Made by Githin Johny</p>
+        <a href="https://www.linkedin.com/in/githin-johny/">
+            <img class="logo" 
+            src="img/linkedin-logo.png" 
+            />
+        </a>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("VMZuMA-pd9iFCq6M4");
+    })();
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+
+    
+    <!-- Main Attraction -->
+    <div class="banner">
+        <h1>Githin Johny</h1>
+        <h4>student of engineering, learning, and life</h4>
+    </div>
+
+    
+    
+    <!-- About Me -->
+    <div class="about">
+        <h3>About Me</h3>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <h3>Projects</h3>
+    </div>
+
+    <!-- Mini Browser Game -->
+    <div class="fun">
+        <h3>Have Some Fun!</h3>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="contact">
+        <h3>Get in Contact</h3>
+
+        <form>
+            <!-- Name -->
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name">
+            <br><br>
+
+            <!-- Phone or Email -->
+            <label for="contact_type">Phone or Email</label><br>
+            <input type="text" id="contact_type">
+            <br><br>
+
+            <!-- Message -->
+            <label for="name">Write a message</label><br>
+            <textarea> </textarea>
+            <br><br>
+
+        </form>
+
+    </div>
+
+    -->
