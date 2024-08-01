@@ -292,6 +292,7 @@ font-size: 1.7vw;
 .card{
   width: 100%;
   max-width: 350px;
+  min-width: 300px;;
   margin: 10px;
   justify-content: space-between;
   
