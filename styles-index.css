@@ -369,12 +369,12 @@ font-size: 1.7vw;
 
 
 .fun{
-  height: fit-content; 
-  width: 100vw;
+  height: fit-content;
+  width:100vw;
   background-color: #8ab6e2;
-  min-width: 500px;
-  min-height: 500px;
-  scroll-snap-type: y mandatory;
+  min-width: 400px;
+  min-height: 400px;
+  padding: 2rem;
 }
 
 .fun h1{
