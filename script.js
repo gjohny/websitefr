@@ -50,7 +50,7 @@ const resultText = document.getElementById("resultText");
       resultText.innerText = data.choices[0].message.content;
     } catch (error) {
       console.error("Error:", error);
-      resultText.innerText = "Error occurred while generating.";
+      resultText.innerText = "Error occurred while generating. Please contact or try again later";
     }
   };
 
